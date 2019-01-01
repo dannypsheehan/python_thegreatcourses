@@ -1,0 +1,13 @@
+Chapter 6 opening and reading csvs
+Chapter 5
+myfile = open("Filename", "r")
+myfile.close()
+
+
+ myfile = open("Filename", "w")
+ myfile.write("This line is written to the file.")
+ myfile.close()
+
+ #Read every line
+ for l in infile.readlines():
+    print(l ,end='')
